@@ -17,8 +17,8 @@ def upload():
             return send_file('fin.png', mimetype='image/png')
         except:
             return('204 No content')
-        os.remove('fin.png') 
     except Exception as err:
         print('Error occurred')
         print(err)
         return('Error, image not received.')
+    os.remove('fin.png') 

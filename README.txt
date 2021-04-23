@@ -11,4 +11,4 @@ flask run
     you should run "apt-get install -y python3-opencv")
 
 4. Upload picture either via curl command, or by goint to "http://127.0.0.1:5000/upload" in web browser. 
-curl -X POST -F "file=@image.png" http://127.0.0.1:5000/upload >> fin.png
+curl -X POST -F "file=@image.png" http://127.0.0.1:5000/upload >> final.png
