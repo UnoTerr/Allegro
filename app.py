@@ -22,5 +22,3 @@ def upload():
         print('Error occurred')
         print(err)
         return('Error, image not received.')
-
-# curl -X POST -F "file=@a.png" http://127.0.0.1:5000/upload >> fin.png
